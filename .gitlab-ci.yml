@@ -1,3 +1,5 @@
-before_scripts:
-  - docker info
-  - - docker run --rm hello-world
+test:
+  stage: deploy
+  script:
+    - docker info
+    - docker run --rm hello-world
