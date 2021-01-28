@@ -2,6 +2,5 @@ test:
   stage: deploy
   script:
     - docker info
-    - docker-compose -v
-    - docker run --rm hello-world
+    - docker run nginx -d
     - ls -a
