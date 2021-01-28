@@ -2,5 +2,5 @@ test:
   stage: deploy
   script:
     - docker info
-    - docker run nginx -d
+    - docker run -d nginx
     - ls -a
