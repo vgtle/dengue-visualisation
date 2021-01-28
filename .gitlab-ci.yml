@@ -2,5 +2,6 @@ test:
   stage: deploy
   script:
     - docker info
+    - docker-compose -v
     - docker run --rm hello-world
     - ls -a
