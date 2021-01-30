@@ -7,8 +7,6 @@ before_script:
 test:
   stage: deploy
   script:
-    - docker info
-    - docker run -d --name test nginx
     - yarn --version
     - yarn
     - yarn run release:electron
