@@ -1,5 +1,8 @@
 image:
-  name: electronuserland/builder:wine-mono-11.19
+  name: electronuserland/builder:wine-chrome-11.19
+
+before_script:
+  - yarn global add prebuild
 
 test:
   stage: deploy
