@@ -1,14 +1,9 @@
 image:
   name: node:10
 
-before_script:
-  - docker rm -f test
-
 test:
   stage: deploy
   script:
-    - docker info
-    - docker run -d --name test nginx
     - yarn --version
     - yarn
     - yarn run release:electron
