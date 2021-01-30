@@ -1,5 +1,5 @@
 image:
-  name: node:10
+  name: electronuserland/builder:wine-mono-11.19
 
 test:
   stage: deploy
