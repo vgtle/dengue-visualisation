@@ -1,3 +1,6 @@
+image:
+  name: node:10
+
 before_script:
   - docker rm -f test
 
@@ -6,4 +9,9 @@ test:
   script:
     - docker info
     - docker run -d --name test nginx
-    - ls -a
+    - yarn --version
+    - yarn
+    - yarn run release:electron
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR/dist/*.*

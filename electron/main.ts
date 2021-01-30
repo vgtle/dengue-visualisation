@@ -6,7 +6,7 @@ import electronIsDev from 'electron-is-dev';
 let mainWindow: Electron.BrowserWindow | null;
 
 function createWindow() {
-  mainWindow = new BrowserWindow({width: 1600, height: 900, titleBarStyle: 'hidden',  fullscreen: true, movable: true});
+  mainWindow = new BrowserWindow({width: 1600, height: 900, titleBarStyle: 'hidden',  fullscreen: false, movable: true});
   mainWindow.loadURL(electronIsDev ? 'http://localhost:3000' : `file://${join(__dirname, '../index.html')}`);
   mainWindow.on('closed', () => mainWindow = null);
   mainWindow.webContents.openDevTools();
