@@ -6,6 +6,7 @@
   "homepage": "./",
 
   "build": {
+    "appId": "com.uni.bremen.cosy.dengue-vis.app",
     "extends": null,
     "files": [
       "build/**/*",
