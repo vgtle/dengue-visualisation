@@ -8,6 +8,9 @@
   "build": {
     "appId": "com.uni.bremen.cosy.dengue-vis.app",
     "extends": null,
+    "mac": {
+      "target": "tar.gz"
+    },
     "files": [
       "build/**/*",
       "node_modules/**/*"
