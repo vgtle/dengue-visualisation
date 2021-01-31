@@ -8,6 +8,12 @@ test:
     - yarn --version
     - yarn
     - yarn run release:electron
+    - rm -rf -p mac
+    - rm -rf -p linux-unpacked
+    - rm -rf -p win-unpacked
   artifacts:
     paths:
-      - $CI_PROJECT_DIR/dist/*.*
+      - $CI_PROJECT_DIR/dist/*.exe
+      - $CI_PROJECT_DIR/dist/*.AppImage
+      - $CI_PROJECT_DIR/dist/*.snap
+      - $CI_PROJECT_DIR/dist/*-mac.tar.gz
