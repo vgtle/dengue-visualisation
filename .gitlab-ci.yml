@@ -8,9 +8,9 @@ test:
     - yarn --version
     - yarn
     - yarn run release:electron
-    - rm -rf -p mac
-    - rm -rf -p linux-unpacked
-    - rm -rf -p win-unpacked
+    - rm -rf mac
+    - rm -rf linux-unpacked
+    - rm -rf win-unpacked
   artifacts:
     paths:
       - $CI_PROJECT_DIR/dist/*.exe
