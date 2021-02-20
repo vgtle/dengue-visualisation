@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e410ed6-4502-4627-9ed6-e243d9b570cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/electron/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/electron/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1e410ed6-4502-4627-9ed6-e243d9b570cc" name="Default Changelist" comment="Remove test file">
+      <change afterPath="$PROJECT_DIR$/src/stories/Button/Button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
@@ -14,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,12 +41,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stories/Button" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -55,6 +62,16 @@
       <updated>1609238138557</updated>
       <workItem from="1609238140227" duration="93000" />
       <workItem from="1609238245878" duration="7274000" />
+      <workItem from="1612009792779" duration="3278000" />
+      <workItem from="1612095736208" duration="8012000" />
+      <workItem from="1613655081134" duration="11713000" />
+      <workItem from="1613680004959" duration="415000" />
+      <workItem from="1613680442641" duration="589000" />
+      <workItem from="1613681836814" duration="138000" />
+      <workItem from="1613681992117" duration="622000" />
+      <workItem from="1613682690047" duration="223000" />
+      <workItem from="1613682929501" duration="364000" />
+      <workItem from="1613683311233" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize react project">
       <created>1609242421551</created>
@@ -63,7 +80,140 @@
       <option name="project" value="LOCAL" />
       <updated>1609242421551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new scripts to build production react and electron app&#10;&#10;Also try out docker-compose it gitlab runner&#10;Add dev tools to the electron app on startup">
+      <created>1611851663510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611851663510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Run Nginx as test">
+      <created>1611853482775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611853482775</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix error">
+      <created>1611853567870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611853567870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix error">
+      <created>1611854160697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854160697</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix error">
+      <created>1611854246752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854246752</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add replacement of existing container">
+      <created>1611854681834</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854681834</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Use node docker image as the base for the runner">
+      <created>1612011299337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011299337</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix error where docker is not available by the runner image">
+      <created>1612011406032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011406032</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix error where docker is not available by the runner image">
+      <created>1612011445712</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011445712</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Use electron build image as the base">
+      <created>1612011821364</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011821365</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add prebuilds to build for all plattforms">
+      <created>1612013053543</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013053543</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add prebuilds to build for all plattforms">
+      <created>1612013118379</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013118379</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Change mac build target and runner docker image">
+      <created>1612097583349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612097583349</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Only upload relevant artifacts">
+      <created>1612100176659</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612100176659</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Remove invalid parameter">
+      <created>1612102851696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612102851696</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Test max size of artifacts in gitlab">
+      <created>1612103630833</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612103630833</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Test push to github">
+      <created>1612105079321</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612105079321</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Test github sync">
+      <created>1612105215517</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612105215517</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Remove test file">
+      <created>1612106099334</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612106099334</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,8 +226,35 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize react project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize react project" />
+    <MESSAGE value="Add new scripts to build production react and electron app&#10;&#10;Also try out docker-compose it gitlab runner&#10;Add dev tools to the electron app on startup" />
+    <MESSAGE value="Run Nginx as test" />
+    <MESSAGE value="Fix error" />
+    <MESSAGE value="Add replacement of existing container" />
+    <MESSAGE value="Use node docker image as the base for the runner" />
+    <MESSAGE value="Fix error where docker is not available by the runner image" />
+    <MESSAGE value="Use electron build image as the base" />
+    <MESSAGE value="Add prebuilds to build for all plattforms" />
+    <MESSAGE value="Change mac build target and runner docker image" />
+    <MESSAGE value="Only upload relevant artifacts" />
+    <MESSAGE value="Remove invalid parameter" />
+    <MESSAGE value="Test max size of artifacts in gitlab" />
+    <MESSAGE value="Test push to github" />
+    <MESSAGE value="Test github sync" />
+    <MESSAGE value="Remove test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove test file" />
   </component>
 </project>
